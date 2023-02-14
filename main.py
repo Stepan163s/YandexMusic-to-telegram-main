@@ -3,7 +3,7 @@ import os
 from yandex_music import Client
 
 
-client = Client('AQAAAAAuVIqNAAG8Xh_Jb6PkM0Shg3aEnokwMZk').init()
+client = Client('token').init()
 
 
 queues = client.queues_list()
